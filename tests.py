@@ -18,3 +18,5 @@ print(len(arya.inventory))
 # and when i call it, it should return
 # "Hello, jon snow, i am Arya Stark. I am awesome"
 print(arya.greet(jon))
+
+print(arya.greet())
