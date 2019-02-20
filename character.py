@@ -23,3 +23,12 @@ class Character():
 # Character is the super class of Hero
 class Hero(Character):
     pass
+
+
+# Monster is a sub-class of Character
+class Monster(Character):
+    def __init__(self):
+        pass
+
+    def greet(self, someone=None):
+        return "uggggghhhh"

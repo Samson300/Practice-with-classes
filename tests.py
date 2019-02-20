@@ -1,5 +1,6 @@
 from character import Character
 from character import Hero
+from character import Monster
 
 arya = Character("Arya Stark", "arya.png")
 jon = Character("Jon Snow", "jon.png")
@@ -23,6 +24,11 @@ print(arya.greet(jon))
 print(arya.greet())
 bronn = Hero("Bronn of the Blackwater", "bron.png")
 
+jack = Monster()
 # Hero should be able to greet Character
 print(bronn.greet(arya))
 print(jon.greet(bronn))
+
+# Will Monster be able to greet Hero?
+print(jack.greet())
+print(jack.greet(jon))
