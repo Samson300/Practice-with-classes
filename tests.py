@@ -1,4 +1,5 @@
 from character import Character
+from character import Hero
 
 arya = Character("Arya Stark", "arya.png")
 jon = Character("Jon Snow", "jon.png")
@@ -20,3 +21,4 @@ print(len(arya.inventory))
 print(arya.greet(jon))
 
 print(arya.greet())
+bronn = Hero("Bronn of the Blackwater", "bron.png")
