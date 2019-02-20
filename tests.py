@@ -22,3 +22,7 @@ print(arya.greet(jon))
 
 print(arya.greet())
 bronn = Hero("Bronn of the Blackwater", "bron.png")
+
+# Hero should be able to greet Character
+print(bronn.greet(arya))
+print(jon.greet(bronn))
