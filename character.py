@@ -3,4 +3,5 @@
 # inventory
 
 class Character():
-    pass
+    def __init__(self, new_name):
+        self.name = new_name
